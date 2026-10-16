@@ -218,3 +218,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# CodeGraph local index (rebuilt with `codegraph init`)
+.codegraph/
+
+# VS Code: share only the workspace MCP configuration
+.vscode/*
+!.vscode/mcp.json
+
+# Secrets and credentials: never commit real ones (see SECURITY.md)
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
